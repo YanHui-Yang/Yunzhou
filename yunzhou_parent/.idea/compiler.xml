@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="yunzhou_recruit" />
+        <module name="yunzhou_common" />
+        <module name="yunzhou_qa" />
+        <module name="yunzhou_article" />
+        <module name="yunzhou_user" />
+        <module name="yunzhou_boot_server" />
+        <module name="yunzhou_base" />
+        <module name="yunzhou_spit" />
+        <module name="yunzhou_gathering" />
+        <module name="yunzhou_sms" />
+        <module name="yunzhou_eureka" />
+        <module name="yunzhou_gateway" />
+        <module name="yunzhou_boot_client" />
+        <module name="yunzhou_web" />
+        <module name="yunzhou_druid" />
+        <module name="yunzhou_config" />
+        <module name="yunzhou_boot_admin_server" />
+        <module name="yunzhou_manager" />
+        <module name="yunzhou_friend" />
+        <module name="yunzhou_search" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="yunzhou-gateway" target="8" />
+      <module name="yunzhou_boot_admin_server" target="8" />
+      <module name="yunzhou_monitor" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="yunzhou-gateway" options="" />
+      <module name="yunzhou_article" options="-parameters" />
+      <module name="yunzhou_base" options="-parameters" />
+      <module name="yunzhou_boot_admin_server" options="-parameters" />
+      <module name="yunzhou_boot_client" options="-parameters" />
+      <module name="yunzhou_boot_server" options="-parameters" />
+      <module name="yunzhou_common" options="-parameters" />
+      <module name="yunzhou_config" options="-parameters" />
+      <module name="yunzhou_druid" options="-parameters" />
+      <module name="yunzhou_eureka" options="-parameters" />
+      <module name="yunzhou_friend" options="-parameters" />
+      <module name="yunzhou_gateway" options="-parameters" />
+      <module name="yunzhou_gathering" options="-parameters" />
+      <module name="yunzhou_manager" options="-parameters" />
+      <module name="yunzhou_monitor" options="-parameters" />
+      <module name="yunzhou_qa" options="-parameters" />
+      <module name="yunzhou_recruit" options="-parameters" />
+      <module name="yunzhou_search" options="-parameters" />
+      <module name="yunzhou_sms" options="-parameters" />
+      <module name="yunzhou_spit" options="-parameters" />
+      <module name="yunzhou_user" options="-parameters" />
+      <module name="yunzhou_web" options="-parameters" />
+    </option>
+  </component>
+</project>

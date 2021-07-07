@@ -1,0 +1,16 @@
+package com.yyh.spit.dao;
+
+import com.yyh.spit.pojo.Spit;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+/**
+ * Author: Tong
+ * Date: 2021/4/2
+ * Description: 吐槽微服务的dao
+ */
+public interface SpitDao extends MongoRepository<Spit, String> {
+    
+    Page<Spit> findByParentid(String parentid, Pageable pageable);
+}

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.3.7.RELEASE</version>
+        <relativePath/>
+    </parent>
+
+    <groupId>com.yyh</groupId>
+    <packaging>pom</packaging>
+    <artifactId>yunzhou_parent</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>yunzhou_common</module>
+        <module>yunzhou_base</module>
+        <module>yunzhou_recruit</module>
+        <module>yunzhou_qa</module>
+        <module>yunzhou_article</module>
+        <module>yunzhou_gathering</module>
+        <module>yunzhou_spit</module>
+        <module>yunzhou_search</module>
+        <module>yunzhou_user</module>
+        <module>yunzhou_sms</module>
+        <module>yunzhou_eureka</module>
+        <module>yunzhou_friend</module>
+        <module>yunzhou_manager</module>
+        <module>yunzhou_web</module>
+        <module>yunzhou_config</module>
+        <module>yunzhou_druid</module>
+        <module>yunzhou_boot_admin</module>
+        <module>yunzhou_boot_server</module>
+        <module>yunzhou_boot_client</module>
+        <module>yunzhou_monitor</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <spring.cloud-version>Hoxton.SR8</spring.cloud-version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.yyh</groupId>
+                    <artifactId>yunzhou-gateway</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.18</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+    <!--SpringCloud依赖-->
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring.cloud-version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+</project>

@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: yunzhou-boot_client
+
+  cloud:
+    consul:
+      host: 127.0.0.1
+      port: 8500
+
+      discovery:
+        enabled: true
+        ##配置开启服务注册到Consul上
+        register: true
+        ##配置注册到Consul的服务实例名称(Consul里Feign是通过此名称调用，而非spring.application.name)
+        service-name: ${spring.application.name}
+        ##配置服务健康检查地址，供Consul调用
+        healthCheckPath: /health
+        ##Consul 健康检查频率
+        healthCheckInterval: 15s
+        instanceId: ${spring.application.name}:${spring.cloud.consul.port}

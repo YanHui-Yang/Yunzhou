@@ -1,0 +1,43 @@
+server:
+  port: 9012
+spring:
+  application:
+    name: yunzhou-gateway
+  cloud:
+    gateway:
+      routes:
+        #----------用户模块
+        - id: yunzhou-user
+          uri: http://localhost:9008/
+          predicates:
+            - Path=/user/**
+          filters:
+            - StripPrefix=1
+        #----------基础模块
+        - id: yunzhou_base
+          uri: http://localhost:9001/
+          predicates:
+            - Path=/base/**
+          filters:
+            - StripPrefix=1
+        #----------活动模块
+        - id: yunzhou_gathering
+          uri: http://localhost:9005/
+          predicates:
+            - Path=/gathering/**
+          filters:
+            - StripPrefix=1
+        #----------招聘模块
+        - id: yunzhou_recruit
+          uri: http://localhost:9002/
+          predicates:
+            - Path=/recruit/**
+          filters:
+            - StripPrefix=1
+        #----------文章模块
+        - id: yunzhou_article
+          uri: http://localhost:9004/
+          predicates:
+            - Path=/article/**
+          filters:
+            - StripPrefix=1

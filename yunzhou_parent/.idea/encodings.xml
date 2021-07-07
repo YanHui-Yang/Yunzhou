@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/yunzhou_article/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yunzhou_article/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yunzhou_base/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yunzhou_base/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yunzhou_boot_client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yunzhou_boot_client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yunzhou_boot_server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yunzhou_common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yunzhou_config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yunzhou_druid/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yunzhou_eureka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yunzhou_friend/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yunzhou_gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yunzhou_gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yunzhou_gathering/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yunzhou_gathering/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yunzhou_manager/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yunzhou_qa/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yunzhou_qa/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yunzhou_recruit/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yunzhou_recruit/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yunzhou_search/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yunzhou_search/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yunzhou_sms/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yunzhou_sms/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yunzhou_spit/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yunzhou_spit/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yunzhou_user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yunzhou_user/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yunzhou_web/src/main/java" charset="UTF-8" />
+  </component>
+</project>
